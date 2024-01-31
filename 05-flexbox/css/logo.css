@@ -1,0 +1,13 @@
+.logo{
+    border: 2px solid black;
+    border-radius: 1rem;
+    font-family: cursive;
+    font-size: 2.2rem;
+    padding: 1rem;
+    width: 8rem;
+}
+@media screen and (max-width:768px) {
+    .logo{
+        display: none;
+    }
+}

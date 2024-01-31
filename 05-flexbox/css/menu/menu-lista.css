@@ -1,0 +1,13 @@
+.menu__lista{
+    display: flex;
+    list-style: none;
+    margin: 1.5rem 1.5rem 0 0; 
+}
+
+/* Criando configurações para o mobile */
+@media screen and (max-width:768px) {
+    .menu__lista{
+        flex-direction: column;
+        width: 100%;     
+    }
+}

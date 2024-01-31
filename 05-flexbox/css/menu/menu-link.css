@@ -1,0 +1,21 @@
+.menu__link{
+    background: #d3d3d3;
+    border-radius: 0.5rem;
+    color: #292929;
+    padding: 0.5rem;
+    transition: .5s linear;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu__link:hover{
+    color: #d3d3d3; 
+    background: #292929;
+    text-decoration: underline;  
+}
+/* Criando configurações para o mobile */
+@media screen and (max-width:768px) {
+    .menu__link:hover{
+        text-decoration: none;
+    }
+}
