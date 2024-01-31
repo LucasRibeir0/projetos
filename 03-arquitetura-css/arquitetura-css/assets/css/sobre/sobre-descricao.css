@@ -1,0 +1,17 @@
+.sobre__descricao{
+    color: #595959;
+    font-weight: 500;
+}
+
+/*css responsivo*/
+@media screen and (min-width:0) {
+    .sobre__descricao{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+@media screen and (min-width:768px) {
+    .sobre__descricao{
+        font-size: 1.25rem;
+    }
+}

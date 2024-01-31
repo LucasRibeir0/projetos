@@ -1,0 +1,13 @@
+/*com telas de largura de zero pra cima aplica esse estilo*/
+@media screen and (min-width:0){
+    .logo{
+        display: none;
+    }
+}
+
+/*Com telas de largura minima de 768px pra cima aplica o logo*/
+@media screen and (min-width: 768px) {
+    .logo{
+        display: block;
+    }
+}
