@@ -1,0 +1,73 @@
+
+.populares__cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+.populares__titulo{
+    font-weight: 500;
+    margin-left: 1.5rem;
+}
+.populares__icone{
+    margin-right: .5rem;
+}
+.populares__botao{
+    margin: 0 2rem .1rem 0 ;
+}
+.populares__conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0rem;
+}
+.populares__card{
+    background:var(--cor-card);
+    display: grid;
+    grid-row-gap: 1rem;
+    grid-template-areas: 
+        "card-imagem"
+        "card-corpo";
+    grid-template-columns: 100%;
+   
+   
+
+}
+.populares__card:last-child{
+    margin-right: 0;
+}
+.populares__card___imagem{
+    grid-area: card-imagem;
+    height: 100%;
+    width: 100%;
+}
+.populares__card___corpo{
+    grid-area: card-corpo;
+    display: grid;
+    grid-template-areas: 
+        "card-cabecalho"
+        "card-descricao";
+    grid-template-rows: 50px auto;
+}
+.populares__card___cabecalho{
+    grid-area: card-cabecalho;
+    grid-template-columns: 100%;
+}
+.populares__card___titulo{
+    color: var(--cor-titulo-cards);
+    font-size: 1.3rem;
+    grid-area: card-descricao;
+    margin-left: .7rem;
+    
+}
+.populares__card___data{
+    color: var(--cor-data);
+    font-size: .8rem;
+    margin-left: .7rem;
+}
+.populares__card___descricao{
+    color:var(--cor-descricao);
+    line-height: 1.5;
+    margin: 1rem 0;
+    padding: .8rem;
+    text-align: justify;
+    
+}

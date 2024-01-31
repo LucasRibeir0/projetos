@@ -1,0 +1,19 @@
+
+.menu__lista{
+   display: flex;
+   align-items: flex-end;
+   height: 50px;
+}
+
+.menu__link{
+    color: var(--cor-icons-cabecalho);
+    padding: 0 1rem;
+    transition: .10ms all linear;
+}
+.menu__link:hover, .menu__link.ativo {
+    border-bottom: 3px solid var(--cor-azul);
+}
+.ativo{
+    margin-left:5rem;
+    margin-right:.5rem;
+}
